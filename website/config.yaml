@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "John Mauricio Portfolio"
+title: "Home"
 theme: "./.."
 relativeURLs: true
 
@@ -32,15 +32,15 @@ params:
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "Example name"
+  name: "John Mauricio"
   namecolor: ffc107
-  profession: "Profession"
-  github: "https://github.com"
-  gitlab: "https://gitlab.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  profession: "Aspiring Data Scientist!"
+  github: "https://github.com/jxmauricio"
+  #gitlab: "https://gitlab.com"
+  linkedin: "https://www.linkedin.com/in/john-mauricio-b427a4216/"
+  #twitter: "https://twitter.com/"
+  #instagram: "https://instagram.com/"
+  #facebook: "https://facebook.com"
 
   #Custom social links
   # customSocialLinks:
@@ -49,78 +49,79 @@ params:
   #   - fontAwesomeIconName: "fa fa-envelope"
   #     url: "https://gmail.com"
   
-  # About
+ # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  descripe_l1_person: "Hi, I'm John, a passionate Data Science Major. I enjoy working with data and analyzing them to make the world a slightly better place."
+  descripe_l2_person: "These are currently my most dominate technological skillsets. I am still in school so it is hard to do projects but I always try to do some on my free time. You can find my works [here](#projects)!"
   skills:
-    - name: CSS
+    - name: Python
       percentage: 90
-    - name: Django
+    - name: Sklearn
       percentage: 85
-    - name: Hugo
+    - name: Pandas
       percentage: 80
-    - name: React JS
+    - name: SQL
       percentage: 70
 
   # Experience
+ # Experience
   disable_experience: false
   experience:
-    - company: "Google"
+    - company: "Data Science Student Society"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
+      role: "Social Events Lead"
+      startdate: Nov 2021
       enddate: present
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
+        - point: Create events to help Data Science students connect.
+        - point: Manage and plan with other commitees to better Data Science students environment.
+    
+    - company: "DS3"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
+      role: "Mentor"
+      startdate: Nov 2021
+      enddate: present
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
-      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+        - point: Help guide new Data Science students with life at UCSD.
+        - point: Tutor mentees on projects they are currently doing.
 
-  # Education
+ # Education
   disable_education: false
   education:
-    - degree: "B.tech"
-      branch: "Information Technology"
-      university: "Example university"
-      startedyear: "2013"
-      graduation: "2018"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
+  
+    - degree: "High School Diploma"
+      branch: ""
+      university: "Deer Valley High School"
+      startedyear: "2015"
+      graduation: "2019"
 
-  # Projects
+    - degree: "Data Science"
+      branch: "Halıcıoğlu Data Science Institute"
+      university: "University of California San Diego"
+      startedyear: "2019"
+      graduation: "present"
+
+ # Projects
   disable_projects: false
   projects:
-    - name: "Example project without details"
-      img: /images/project.jpg
-      githublink: "https://github.com/"
+    - name: "NYPD Complainant Full Analysis Report"
+      img: "/images/nypd.jpg"
+      githublink: "https://github.com/jxmauricio"
       featuredlink: "/"
-      description: "Description of project"
+      description: "This project contains 12,000 civilian complaints against New York City Police Officers. My partner and I used Exploratory Data Analysis to formulate our 
+      hypothesis and used techniques such as Data Imputation before running permutation tests to draw conclusions. In the second part of the project we modeled a Decision Tree 
+      Classifier using feature engineering to predict if the complainants allegation towards the police officer were going to be successful or not. "
+    - name: "Stackoverflow Salary Prediction"
+      img: "/images/stack-overflow.jpg"
+      githublink: "https://github.com/jxmauricio"
+      featuredlink: "/"
+      description: "This project contains 49,000 software developers who have shared their salary. I first explored the data 
+      and cleaned the dataset to be able to be used for modeling. Then I used a Random Forest Regressor to predict the salaries of these developers
+      based on features such as 'years of experience'. Using the webapp streamlit I deployed the model enabling an average user to understand the model easily and also
+      input their own salaries to be predicted."
 
   # Achievements
-  disable_achievements: false
+  disable_achievements: True
   achievements:
     - title: Competition winner
       description: We are developed a product which can help others.
@@ -137,10 +138,10 @@ params:
       description: We are developed a product which can help others.
       img: /images/achiv.jpg
 
-  # Contact
+ # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  email: "johnmauricio0308@gmail.com"
 
   # Footer
   socialiconfooter: true
