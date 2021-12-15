@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Home"
+title: "John Mauricio"
 theme: "./.."
 relativeURLs: true
 
@@ -63,7 +63,6 @@ params:
     - name: SQL
       percentage: 70
 
-  # Experience
  # Experience
   disable_experience: false
   experience:
